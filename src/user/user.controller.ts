@@ -12,7 +12,7 @@ export class UserController {
     @Res() res:Response
   ) 
   {
-    return res.status(200).json({msg: "Server On"})
+    return res.status(200).json({msg: "Server 1 On"})
   }
 
 
